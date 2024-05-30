@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrarse - CodoFlix</title>
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/fca40b89ab.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/estilo.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <main class="fondo-registro">
+    <div class="container">
+      <a class="logo" href="../index.html">
+        <img src="../assets/img/logo-640.png" alt="Logo CodoFlix es un logo que representa a un video" width="100"
+          loading="lazy">
+      </a>
+      <div class="caja-registro">
+        
+        <form action="validar.php" method="post">
+          <div>
+            <label for="name">Nombre:</label>
+            <input type="text" name="nombre" id="name" placeholder="Nombre" required> 
+          </div>
+          <div>
+            <label for="apellido:">Apellido</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="eamil" placeholder="Email" required>
+          </div>
+          <div>
+            <label for="Password">Contraseña</label>
+            <input type="password" name="password" id="password" placeholder="Contraseña" required>
+          </div>
+          <div>
+            <label for="">Fecha de Nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+          </div>
+          <div>
+            <label for="Ingrese Pais"></label>
+            <select name="" id="">
+              <option value="argentina">Argentina</option>
+              <option value="brasil">Brasil</option>
+              <option value="chile">Chile</option>
+              <option value="uruguay">Uruguay</option>
+            </select>
+          </div>
+          <div>
+            <input type="checkbox" value="1" name="terminos">
+            <label class="no-esconder" for="terminos">Acepte terminos y condiciones</label>
+          </div>
+          <div>
+
+            <input type="submit" value="Registrarme">
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
+
+

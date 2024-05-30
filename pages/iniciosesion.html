@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion CodoFlix</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/fca40b89ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  
+    <main class="fondo-sesion">
+      <div class="container">
+        <a class="logo" href="../index.html">
+          <img src="../assets/img/logo-640.png" alt="Logo CodoFlix es un logo que representa a un video" width="100"
+          loading="lazy">
+        </a>
+        <div class="caja-iniciosesion">
+
+        <form action="" method="post" id="form">
+          <div class="form">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" >
+          </div>
+          <div>
+            <label for="Password">Contraseña</label>
+            <input type="password" name="password" id="password" placeholder="Contraseña"  >
+            <br>
+          </div>
+          <div>
+            <input type="submit" value="Iniciar Sesión">
+            
+            <a href="registrarse.html" class="register-link">Registrarse</a>
+            <p class="warnings" id="warnings"></p>
+          </div>
+          
+        </form>
+        </div>
+      </div>
+    </main>
+    <script src="../js/validacion.js"></script>
+</body>
+
+</html>

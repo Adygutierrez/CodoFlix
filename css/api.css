@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background: linear-gradient(to right top, #24242473, #24242473), url(../assets/img/bg-register.jpg);
+}
+
+.weather-container {
+    background: #b2e2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #475a60;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}

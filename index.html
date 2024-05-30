@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodoFlix - Catalogo de Peliculas</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/fca40b89ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="principal">
+        <nav>
+            <a class="logo" href="#">
+              <img src="./assets/img/logo-640.png" alt="Logo CodoFlix es un logo que representa a un video" width="100" loading="lazy">
+            </a>
+            <ul class="menu"> 
+                <li>
+                  <a href="#tendencia">Tendencia</a>
+                </li>
+                <li>
+                  <a href="./pages/registrarse.html">Registrarse</a>
+                </li>
+                <li>
+                  <a class="boton-inicio-sesion" href="./pages/iniciosesion.html">Iniciar Sesión</a>
+                </li>
+                <li>
+                  <a class="conexionapi" href="./pages/conexionapi.html">Conexion Api</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+            <div class="box-textos">
+                <h1>Películas y series ilimitadas en un solo lugar</h1>
+                <h2>Disfruta donde quieras. Cancela en cualquier momento.</h2>
+                <a href="./pages/registrarse.html" class="btn-inicio-cta">Regístrarse</a>
+            </div>
+        </div>
+    </section>
+       <section class="buscador">
+          <div class="container">
+            <div class="caja-buscador">
+              <h2>¿Que estas buscando para ver?</h2>
+              <form action="">
+                <input type="text" placeholder="Buscar" id="buscar" name="buscar" required>
+                <input type="submit" value="Buscar" id="btnBuscar" name="btnBuscar">
+              </form>
+            </div>
+            <hr>
+          </div>  
+       </section>
+
+       <section id="tendencia">
+        <div class="container">
+            <h2>Las tendencias de hoy</h2>
+            <div class="caja-grid">
+              <div class="caja-pelicula">
+                <a href="./pages/detalle.html">
+                  <img src="./assets/img/01.jpg" alt="Kung Fu Panda 4">
+                  <h3>Kung Fu Panda 4</h3>
+              </a>
+              </div>
+              <div class="caja-pelicula">
+                <a href="./pages/detalle.html">
+                  <img src="./assets/img/2385575.webp" alt="Dune 2">
+                  <h3>Dune 2</h3>
+                </a>
+              </div>
+              <div class="caja-pelicula">
+                <a href="./pages/detalle.html">
+                <img src="./assets/img/Cazafantasmas_4_Poster_Oficial.webp" alt="Ghostbusters Apocalipsis Fantasma">
+                <h3>Ghostbusters Apocalipsis Fantasma</h3>
+                </a>
+              </div>
+              <div class="caja-pelicula">
+                <a href="./pages/detalle.html">
+                <img src="./assets/img/Godzilla_y_Kong_El_nuevo_imperio-737095597-large.jpg" alt="Godzilla y Kong El Nuevo Imperio">
+                <h3>Godzilla y Kong El Nuevo Imperio</h3>
+              </a>
+              </div>
+                  <div class="caja-pelicula">
+                <a href="./pages/detalle.html">
+                  <img src="./assets/img/MV5BZmQ3ZGQ0YjktMDgyZS00MWZhLTgxYjktMDNhNDU2YjFhZmJjXkEyXkFqcGdeQXVyNjM0MTI4Mw@@._V1_FMjpg_UX1000_.jpg" alt="Cronica Sangrienta">
+                  <h3>Cronica Sangrienta</h3>
+                </a>
+              </div>
+              <div class="caja-pelicula">
+                <a href="./pages/detalle.html">
+                <img src="./assets/img/peli_6.jpg" alt="Patos">
+                <h3>Patos</h3>
+              </a>
+              </div>
+            </div>
+            <div class="caja-botones">
+              <a href="#">Anterior</a>
+              <a href="#">Proximo</a>
+            </div>
+        </div>
+       </section>
+       <hr>
+       <section class="aclamadas">
+        <div class="container-chico">
+              <h2>La mas Aclamadas</h2>
+                <div class="caja-aclamadas">
+                  <img src="assets/img/aclamada1.jpg" alt="Como el Mar">
+                  <img src="assets/img/aclamada2.jpg" alt="Recuerdo de Paris">
+                  <img src="assets/img/aclamada3.jpg" alt="Tokyo Shaking">
+                  <img src="assets/img/aclamada4.webp" alt="Lazos de Vida">
+                </div>
+        </div>
+       </section>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+            <li>
+              <a href="">Terminos y condiciones</a>
+            </li>
+            <li>
+              <a href="">Preguntas frecuentes</a>
+            </li>
+            <li>
+              <a href="">Ayuda</a>
+            </li>
+            <li>
+              <a class="administrador-peliculas">Administrador Peliculas</a>
+            </li>
+        </ul>
+      </nav>
+      <a href="#principal" class="flecha-arriba">
+        <img src="./assets/img/flecha-hacia-arriba.png" alt="">
+      </a>
+    </footer>
+</body>
+</html>
